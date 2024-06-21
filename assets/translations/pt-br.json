@@ -1,4 +1,10 @@
 {
     "introtext": "App lista de supermercado para facilitar sua vida :)",
-    "introtexttwo": "Iniciar"
+    "introtexttwo": "Iniciar",
+    "home": "Início", 
+    "list": "Lista",
+    "settings": "Configurações",
+    "darkmode": "Modo Escuro",
+    "notifications": "Notificações",
+    "about": "Sobre"
 }

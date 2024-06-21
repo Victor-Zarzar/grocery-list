@@ -39,3 +39,11 @@ class IconColor {
 
   static Color get thirdColor => const Color(0xFFCFD8DC);
 }
+
+class SwitchColor {
+  SwitchColor._();
+
+  static Color get primaryColor => const Color(0xFFECEFF1);
+
+  static Color get secondaryColor => const Color(0xFFCFD8DC);
+}
