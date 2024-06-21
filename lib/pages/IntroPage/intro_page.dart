@@ -39,7 +39,7 @@ class _IntroPageState extends State<IntroPage> {
                     textAlign: TextAlign.center,
                     style: GoogleFonts.notoSerif(
                       textStyle: TextStyle(
-                        fontSize: 30,
+                        fontSize: 28,
                         fontWeight: FontWeight.bold,
                         color: notifier.isDark
                             ? FontTextColor.secondaryColor
