@@ -29,3 +29,13 @@ class ButtonColor {
 
   static Color get secondaryColor => const Color(0xFFCFD8DC);
 }
+
+class IconColor {
+  IconColor._();
+
+  static Color get primaryColor => const Color(0xFF000000);
+
+  static Color get secondaryColor => const Color(0xFF2196F3);
+
+  static Color get thirdColor => const Color(0xFFCFD8DC);
+}

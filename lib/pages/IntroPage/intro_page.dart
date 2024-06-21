@@ -5,7 +5,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:grocery_list/components/AppAssets/app_assets.dart';
 import 'package:grocery_list/components/AppTheme/app_theme.dart';
 import 'package:grocery_list/components/DarkMode/dark_mode.dart';
-import 'package:grocery_list/pages/HomePage/home_page.dart';
+import 'package:grocery_list/pages/AppPage/app_page.dart';
 import 'package:provider/provider.dart';
 
 class IntroPage extends StatefulWidget {
@@ -59,7 +59,7 @@ class _IntroPageState extends State<IntroPage> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const HomePage(),
+                            builder: (context) => const AppPage(),
                           ),
                         );
                       },
