@@ -4,6 +4,7 @@ import 'package:getwidget/getwidget.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:grocery_list/features/app_theme.dart';
 import 'package:grocery_list/features/assets_app.dart';
+import 'package:grocery_list/screens/app_page.dart';
 
 class IntroPage extends StatefulWidget {
   const IntroPage({super.key});
