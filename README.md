@@ -8,7 +8,7 @@
 - Flutter
 - Get Widget UI
 - Google Fonts
-- Locale Language EN / PT- / ES
+- Locale Language EN / PT-BR / ES
 - Dark Mode Provider
 - Shared Preferences
 - SQF Lite (SQL LITE FLUTTER)
