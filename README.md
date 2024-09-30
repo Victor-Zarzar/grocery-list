@@ -1,16 +1,47 @@
-# grocery_list
+<h1 align="center" id="header">
+ Grocery List App Flutter
+</h1>
 
-A new Flutter project.
+🤖 Stack:
 
-## Getting Started
+- Dart
+- Flutter
+- Get Widget UI
+- Google Fonts
+- Locale Language EN / PT- / ES
+- Dark Mode Provider
+- Shared Preferences
+- SQF Lite (SQL LITE FLUTTER)
 
-This project is a starting point for a Flutter application.
+<br />
 
-A few resources to get you started if this is your first Flutter project:
+⚙️ How to install:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Project Clone
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+     git clone https://github.com/Victor-Zarzar/grocery-list
+
+Enter in directory:
+
+     cd grocery-list
+
+Open in your favorite editor(e.g. VSCode):
+
+    code .
+
+For install dependencies:
+
+    flutter pub get
+
+Run the app:
+
+    flutter run
+
+### Version iOS:
+
+<img src="assets/intropageios.png" alt="intro page ios" width="250"> &nbsp; &nbsp; &nbsp; <img src="assets/homepageios.png" alt="home page ios" width="250"> &nbsp; &nbsp; &nbsp; <img src="assets/homepageios2.png" alt="home page ios 2" width="250"> &nbsp; &nbsp; &nbsp; <img src="assets/darkmodeios.png" alt="home page ios 2" width="250"> &nbsp; &nbsp; &nbsp; <img src="assets/aboutios.png" alt="home page ios 2" width="250">
+&nbsp; &nbsp; &nbsp; <img src="assets/consumptionios.png" alt="home page ios 2" width="250">
+
+### Version Android:
+
+<img src="assets/intropageandroid.png" alt="intro page android" width="250"> &nbsp; &nbsp; &nbsp; <img src="assets/homepageandroid.png" alt="home page android" width="250"> &nbsp; &nbsp; &nbsp; <img src="assets/homepageandroid2.png" alt="home page android 2" width="250">
