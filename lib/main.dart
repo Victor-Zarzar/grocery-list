@@ -12,9 +12,12 @@ void main() async {
       supportedLocales: const [
         Locale('en', 'US'),
         Locale('pt', 'BR'),
+        Locale('es'),
       ],
       path: 'assets/translations',
-      fallbackLocale: const Locale('en-US'),
+      fallbackLocale: const Locale(
+        'en-US',
+      ),
       child: const MyApp(),
     ),
   );
