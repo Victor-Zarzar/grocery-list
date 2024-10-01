@@ -8,5 +8,10 @@
     "settings": "Configuración",
     "darkmode": "Modo Oscuro",
     "notifications": "Notificaciones",
-    "about": "Acerca de"
+    "about": "Acerca de",
+    "backtopage": "Volver a la página",
+    "launch_error": "No se pudo iniciar",
+    "informationicon": "Ícono de información",
+    "abouttext": "Esta aplicación fue desarrollada para hacer las listas de compras más fáciles, simples y prácticas.",
+    "desarrollado": "Desarrollado por: www.victorzarzar.com.br"
 }

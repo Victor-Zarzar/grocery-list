@@ -8,5 +8,10 @@
     "settings": "Settings",
     "darkmode": "Dark Mode",
     "notifications": "Notifications",
-    "about": "About"
+    "about": "About",
+    "backtopage": "Back to page",
+    "launch_error": "Could not launch",
+    "informationicon": "Information icon",
+    "abouttext": "This application was developed to make grocery lists easier, simple and practical.",
+    "developed": "Developed by: www.victorzarzar.com.br"
 }

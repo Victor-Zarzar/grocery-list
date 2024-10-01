@@ -8,5 +8,10 @@
     "settings": "Configurações",
     "darkmode": "Modo Escuro",
     "notifications": "Notificações",
-    "about": "Sobre"
+    "about": "Sobre",
+    "backtopage": "Voltar à página",
+    "launch_error": "Não foi possível iniciar.",
+    "informationicon": "Ícone de informações",
+    "abouttext": "Este aplicativo foi desenvolvido para facilitar listas de supermercados, simples e prático.",
+    "developed": "Desenvolvido por: www.victorzarzar.com.br"
 }
