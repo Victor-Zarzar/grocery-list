@@ -1,6 +1,8 @@
 {
     "introtext": "App lista de supermercado para facilitar sua vida :)",
     "introtexttwo": "Iniciar",
+    "title_notification": "Está gostando do nosso app?",
+    "body_notification": "Nos avalie na loja!",
     "home": "Início", 
     "list": "Lista",
     "settings": "Configurações",

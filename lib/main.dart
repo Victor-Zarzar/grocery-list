@@ -1,12 +1,17 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:grocery_list/controller/notification_controller.dart';
 import 'package:grocery_list/features/theme_provider.dart';
 import 'package:grocery_list/screens/intro_page.dart';
 import 'package:provider/provider.dart';
+import 'package:timezone/data/latest.dart' as tz;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await EasyLocalization.ensureInitialized();
+  await NotificationService.init();
+  tz.initializeTimeZones();
+
   runApp(
     EasyLocalization(
       supportedLocales: const [

@@ -1,6 +1,8 @@
 {
     "introtext": "Grocery list app to make your life easier :)",
     "introtexttwo": "Get Started",
+    "title_notification": "Do you like our app?",
+    "body_notification": "Rate us in the store!",
     "home": "Home", 
     "list": "List",
     "settings": "Settings",

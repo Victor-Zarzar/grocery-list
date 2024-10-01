@@ -1,6 +1,8 @@
 {
     "introtext": "Aplicación de lista de compras para hacerte la vida más fácil :)",
     "introtexttwo": "Comenzar",
+    "title_notification": "¿Te gusta nuestra aplicación?",
+    "body_notification": "¡Califícanos en la tienda!",
     "home": "Casa", 
     "list": "Lista",
     "settings": "Configuración",

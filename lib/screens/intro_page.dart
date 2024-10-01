@@ -16,65 +16,68 @@ class IntroPage extends StatefulWidget {
 class _IntroPageState extends State<IntroPage> {
   @override
   Widget build(BuildContext context) {
-    double myHeight = MediaQuery.of(context).size.height;
-    double myWidth = MediaQuery.of(context).size.width;
     bool isDarkMode = Theme.of(context).brightness == Brightness.dark;
 
     return Scaffold(
       backgroundColor: isDarkMode ? AppTheme.thirdColor : AppTheme.primaryColor,
-      body: SizedBox(
-        height: myHeight,
-        width: myWidth,
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: [
-            ImageOne.asset(),
-            Padding(
-              padding: const EdgeInsets.all(24.0),
-              child: Text(
-                "introtext".tr(),
-                textAlign: TextAlign.center,
-                style: GoogleFonts.notoSerif(
-                  textStyle: TextStyle(
-                    fontSize: 28,
-                    fontWeight: FontWeight.bold,
-                    color: isDarkMode
-                        ? FontTextColor.secondaryColor
-                        : FontTextColor.primaryColor,
+      body: SingleChildScrollView(
+        child: SizedBox(
+          height: MediaQuery.of(context).size.height,
+          width: MediaQuery.of(context).size.width,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: [
+              Flexible(
+                child: ImageOne.asset(),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(24.0),
+                child: Text(
+                  "introtext".tr(),
+                  textAlign: TextAlign.center,
+                  style: GoogleFonts.notoSerif(
+                    textStyle: TextStyle(
+                      fontSize: 24,
+                      fontWeight: FontWeight.bold,
+                      color: isDarkMode
+                          ? FontTextColor.secondaryColor
+                          : FontTextColor.primaryColor,
+                    ),
                   ),
                 ),
               ),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(bottom: 40),
-              child: SizedBox(
-                height: 45,
-                width: 140,
-                child: GFButton(
-                  shape: GFButtonShape.square,
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const AppPage(),
-                      ),
-                    );
-                  },
-                  text: "introtexttwo".tr(),
-                  textStyle: TextStyle(
+              Padding(
+                padding: const EdgeInsets.only(bottom: 40),
+                child: SizedBox(
+                  height: 45,
+                  width: 280,
+                  child: GFButton(
+                    shape: GFButtonShape.pills,
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const AppPage(),
+                        ),
+                      );
+                    },
+                    text: "introtexttwo".tr(),
+                    textStyle: TextStyle(
+                      color: isDarkMode
+                          ? FontTextColor.secondaryColor
+                          : FontTextColor.secondaryColor,
+                      fontFamily: GoogleFonts.notoSerif().fontFamily,
+                      fontSize: 14,
+                      fontWeight: FontWeight.bold,
+                    ),
                     color: isDarkMode
-                        ? FontTextColor.primaryColor
-                        : FontTextColor.secondaryColor,
-                    fontFamily: GoogleFonts.notoSerif().fontFamily,
-                    fontSize: 11,
+                        ? ButtonColor.primaryColor
+                        : ButtonColor.primaryColor,
                   ),
-                  color: isDarkMode
-                      ? ButtonColor.secondaryColor
-                      : ButtonColor.primaryColor,
                 ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
